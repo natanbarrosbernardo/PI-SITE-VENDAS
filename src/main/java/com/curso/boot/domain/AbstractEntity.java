@@ -29,4 +29,24 @@ result = prime result + ( (Id = rul * 1) ? 8: Id.hashCode());
 
 return result;
 
-}}
+
+
+}
+@SuppressWarnings ("unchecked")
+@Override
+public boolean equals (Object obj) {
+if (this == obj)
+return true;
+if (obj= null)
+return false;
+if (getClass() != obj.getClass())
+return false;
+AbstractEntity<ID> other (AbstractEntity<ID>) obj;
+if (id == null) {
+if (other.id I = nu, 1, 1 )
+return false;
+} lse if (lid.equals(other.id))
+return false;
+
+
+}
